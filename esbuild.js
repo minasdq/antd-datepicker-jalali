@@ -11,15 +11,15 @@ if (!existsSync(lib)) {
 
 esbuild
   .build({
-    entryPoints: ['src/index.ts'],
-    outdir: 'lib/esm',
+    entryPoints: ["src/index.ts"],
+    outdir: "lib/esm",
     bundle: true,
     sourcemap: true,
     minify: true,
     splitting: true,
-    format: 'esm',
-    target: ['esnext'],
-    external: ['antd','react','dayjs','jalaliday','rc-picker'],
+    format: "esm",
+    target: ["esnext"],
+    external: ["antd", "react", "dayjs", "jalaliday", "rc-picker"],
   })
   .catch(() => process.exit(1));
 

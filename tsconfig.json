@@ -3,11 +3,7 @@
     "target": "es5",
     "module": "esnext",
     "baseUrl": "./src",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -25,7 +21,5 @@
     "noFallthroughCasesInSwitch": true,
     "noEmit": true
   },
-  "include": [
-    "./src/**/*"
-  ]
+  "include": ["./src/**/*"],
 }

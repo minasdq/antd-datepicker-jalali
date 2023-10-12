@@ -19,6 +19,5 @@
     "outDir": "es"
   },
   "include": ["./src/**/*"],
-  "exclude": ["./src/index.js"]
+  "exclude": ["./src/index.js", "node_modules", "lib"]
 }
-
