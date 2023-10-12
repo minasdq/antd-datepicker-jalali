@@ -17,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/minasdq/antd-datepicker-jalali"
+    "url": "git+https://github.com/minasdq/antd-datepicker-jalali.git"
   },
   "main": "lib/cjs/index.cjs.js",
   "module": "lib/esm/index.js",
